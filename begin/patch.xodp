@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "SkcO-f3xt",
+      "label": "Prefs",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-preferences-object"
+    },
+    {
+      "id": "HJrtWf3lY",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Namespace name. Limited to 15 chars.",
+      "id": "r1wiWzngt",
+      "label": "Name",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Update.",
+      "id": "r1vT-G3xK",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "HkSC-Gngt",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Read only.",
+      "id": "H1xmMG3gY",
+      "label": "RO",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     {
       "description": "A preferences object.",
       "id": "rJCZcsKgt",
-      "label": "PREF",
+      "label": "Prefs",
       "position": {
         "units": "slots",
         "x": 1,

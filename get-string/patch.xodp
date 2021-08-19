@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "description": "A preferences object.",
+      "id": "r14ZbzhlY",
+      "label": "Prefs",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-preferences-object"
+    },
+    {
+      "id": "Hkx4bbG3xY",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Update",
+      "id": "r1ZVbbM2xK",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Key name. Limited to 15 chars.",
+      "id": "B1G4--M3xK",
+      "label": "Key",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SyVEZ-f2eF",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Hy7GZM2gt",
+      "label": "String",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-string"
+    }
+  ]
+}

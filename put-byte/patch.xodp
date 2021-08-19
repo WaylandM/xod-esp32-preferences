@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "S18l1z3xt",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Key name. Limited to 15 chars.",
+      "id": "SyZIxJM3gF",
+      "label": "Key",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Pulse on write.",
+      "id": "HkfIe1zneY",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "r1QLx1G3eF",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "rklbkM2xK",
+      "label": "Byte",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "A preferences object.",
+      "id": "Hy6xeM2lF",
+      "label": "Prefs",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 0
+      },
+      "type": "@/input-preferences-object"
+    }
+  ]
+}
