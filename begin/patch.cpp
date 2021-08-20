@@ -1,4 +1,3 @@
-
 node {
 
     void evaluate(Context ctx) {
@@ -9,7 +8,12 @@ node {
         auto xStringName = getValue<input_Name>(ctx);
         auto ro = getValue<input_RO>(ctx);
 
-        int N=length(xStringName) + 1;
+        int N=length(xStringName);
+        if (N>15 || N<1) {
+            raiseError(ctx);
+            return;
+        }
+        N +=1;
         char cStringName[N];
         for(int i=0;i<N;i++)
             cStringName[i]=0;

@@ -8,13 +8,23 @@ node {
         auto xStringKey = getValue<input_Key>(ctx);
         auto xString = getValue<input_String>(ctx);
 
-        int N=length(xStringKey) + 1;
+        int N=length(xStringName);
+        if (N>15 || N<1) {
+            raiseError(ctx); 
+            return;
+        }
+        N +=1;
         char cStringKey[N];
         for(int i=0;i<N;i++)
             cStringKey[i]=0;
         dump(xStringKey, cStringKey);
 
-        N=length(xString) + 1;
+        N=length(xString);
+        if (N>15 || N<1) {
+            raiseError(ctx);
+            return;
+        }
+        N +=1;
         char cString[N];
         for(int i=0;i<N;i++)
             cString[i]=0;

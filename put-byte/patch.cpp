@@ -8,7 +8,12 @@ node {
         auto xStringKey = getValue<input_Key>(ctx);
         uint8_t byte = getValue<input_Byte>(ctx);
 
-        int N=length(xStringKey) + 1;
+        int N=length(xStringKey);
+        if (N>15 || N<1) {
+            raiseError(ctx);
+            return;
+        }
+        N +=1;
         char cStringKey[N];
         for(int i=0;i<N;i++)
             cStringKey[i]=0;
