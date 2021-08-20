@@ -8,7 +8,7 @@ node {
         auto xStringKey = getValue<input_Key>(ctx);
         auto xString = getValue<input_String>(ctx);
 
-        int N=length(xStringName);
+        int N=length(xStringKey);
         if (N>15 || N<1) {
             raiseError(ctx); 
             return;
