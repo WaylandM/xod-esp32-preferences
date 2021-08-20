@@ -1,4 +1,61 @@
 {
+  "links": [
+    {
+      "id": "B1ynXCheF",
+      "input": {
+        "nodeId": "Hy6sXA2xK",
+        "pinKey": "SkcO-f3xt"
+      },
+      "output": {
+        "nodeId": "r1NX3iKeY",
+        "pinKey": "rJCZcsKgt"
+      }
+    },
+    {
+      "id": "Sy607AngY",
+      "input": {
+        "nodeId": "HJt0QChlK",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "Hy6sXA2xK",
+        "pinKey": "HkSC-Gngt"
+      }
+    },
+    {
+      "id": "S1ByVAnlF",
+      "input": {
+        "nodeId": "rkbJ402gt",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJt0QChlK",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "rJzgEC3gt",
+      "input": {
+        "nodeId": "Hy6sXA2xK",
+        "pinKey": "r1vT-G3xK"
+      },
+      "output": {
+        "nodeId": "HyCk40nlY",
+        "pinKey": "Bkf4BDsmV"
+      }
+    },
+    {
+      "id": "ByHw9Chxt",
+      "input": {
+        "nodeId": "Hy6sXA2xK",
+        "pinKey": "r1wiWzngt"
+      },
+      "output": {
+        "nodeId": "BJWBc0ngY",
+        "pinKey": "B1x2RV3eZ"
+      }
+    }
+  ],
   "nodes": [
     {
       "id": "r1NX3iKeY",
@@ -8,6 +65,59 @@
         "y": 1
       },
       "type": "@/preferences-object"
+    },
+    {
+      "id": "Hy6sXA2xK",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/begin"
+    },
+    {
+      "id": "HJt0QChlK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "rkbJ402gt",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HyCk40nlY",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"more than fifteen characters\""
+      },
+      "id": "BJWBc0ngY",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      },
+      "type": "xod/core/constant-string"
     }
   ]
 }

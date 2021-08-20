@@ -1,0 +1,35 @@
+{
+  "description": "Erase and re-initialise non-volatile storage (NVS).",
+  "nodes": [
+    {
+      "id": "S1jVpk6gK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "S1IrTkTxt",
+      "label": "Erase",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse when NVS erased and re-initialised.",
+      "id": "S10La1pxt",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "links": [
+    {
+      "id": "BycvJWTlt",
+      "input": {
+        "nodeId": "SJUvkZagK",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "HyslkWTgt",
+        "pinKey": "S10La1pxt"
+      }
+    },
+    {
+      "id": "SJ7_1ZTlY",
+      "input": {
+        "nodeId": "B1ydy-axK",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SJUvkZagK",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "HyB9kWalt",
+      "input": {
+        "nodeId": "HyslkWTgt",
+        "pinKey": "S1IrTkTxt"
+      },
+      "output": {
+        "nodeId": "BJzc1-pgK",
+        "pinKey": "Bkf4BDsmV"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HyslkWTgt",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/erase-nvs"
+    },
+    {
+      "id": "SJUvkZagK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "B1ydy-axK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJzc1-pgK",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-pulse"
+    }
+  ]
+}

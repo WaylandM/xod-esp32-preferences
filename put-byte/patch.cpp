@@ -1,4 +1,3 @@
-
 node {
 
     void evaluate(Context ctx) {
@@ -15,8 +14,8 @@ node {
             cStringKey[i]=0;
         dump(xStringKey, cStringKey);
 
-        prefs -> begin(cStringName, ro);
-        emitValue<output_Done>(ctx, 1);
+        prefs -> putUChar(cStringKey, byte);
 
+        emitValue<output_Done>(ctx, 1);
     }
 }

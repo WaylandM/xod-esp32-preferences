@@ -11,7 +11,7 @@ node {
         // It should be evaluated only once on the first (setup) transaction
         if (!isSettingUp())
             return;
-        emitValue<output_PREF>(ctx, &prefs);
+        emitValue<output_Prefs>(ctx, &prefs);
     }
 
 }
