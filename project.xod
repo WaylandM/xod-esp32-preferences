@@ -1,3 +1,6 @@
 {
-  "name": "esp32-preferences"
+  "description": "Save data (byte, number and string data types) to non-volatile storage (NVS). Wrapper for the ESP32 Preferences library (https://github.com/espressif/arduino-esp32/tree/master/libraries/Preferences).",
+  "license": "Apache-2.0",
+  "name": "esp32-preferences",
+  "version": "0.0.1"
 }
