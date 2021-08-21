@@ -482,7 +482,7 @@
     },
     {
       "boundLiterals": {
-        "B1x2RV3eZ": "\"my namespace123\""
+        "B1x2RV3eZ": "\"my namespace\""
       },
       "id": "H1aYcXplt",
       "position": {
@@ -660,7 +660,7 @@
     },
     {
       "boundLiterals": {
-        "SykJ8wjXN": "3d"
+        "SykJ8wjXN": "5d"
       },
       "id": "S1MrCXagK",
       "position": {
@@ -867,7 +867,7 @@
     },
     {
       "boundLiterals": {
-        "H1wh06BEW": "\"Hello world!\""
+        "H1wh06BEW": "\"Hello, world!\""
       },
       "id": "SkLMqvTlY",
       "position": {

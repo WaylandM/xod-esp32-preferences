@@ -20,10 +20,6 @@ node {
         dump(xStringKey, cStringKey);
 
         N=length(xString);
-        if (N>15 || N<1) {
-            raiseError(ctx);
-            return;
-        }
         N +=1;
         char cString[N];
         for(int i=0;i<N;i++)

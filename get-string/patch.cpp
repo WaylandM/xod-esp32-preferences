@@ -1,5 +1,6 @@
 node {
     CStringView view;
+    char* cString;
 
     void evaluate(Context ctx) {
         // The node responds only if there is an input pulse
@@ -20,14 +21,13 @@ node {
         dump(xStringKey, cStringKey);
 
         String str = prefs -> getString(cStringKey, "");
-
-        unsigned int strLen = str.length() + 1;
-        char cString[strLen];
-        for(int i=0;i<strLen;i++)
-            cString[i]=0;
+        int strLen = str.length() + 1;
+        cString = new char[strLen];
+        
         str.toCharArray(cString, strLen);
-        //view=CStringView(cString);
-        view=CStringView("sausage");
+
+        view=CStringView(cString);
+
         emitValue<output_String>(ctx, XString(&view));
         emitValue<output_Done>(ctx, 1);
     }
