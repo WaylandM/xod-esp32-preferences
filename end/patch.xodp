@@ -1,6 +1,8 @@
 {
+  "description": "Close the open namespace.",
   "nodes": [
     {
+      "description": "A preferences object.",
       "id": "Hyo8MG2lt",
       "label": "Prefs",
       "position": {
@@ -31,6 +33,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulse when namespace closed.",
       "id": "rkQiIfM2gY",
       "label": "Done",
       "position": {
