@@ -1,18 +1,16 @@
-
 node {
-    // Internal state variables defined at this level persists across evaluations
-    Number foo;
-    uint8_t bar = 5;
 
     void evaluate(Context ctx) {
-        bar += 42;
+        // The node responds only if there is an input pulse
+        if (!isInputDirty<input_UPD>(ctx))
+            return;
+        auto prefs = getValue<input_Prefs>(ctx);
 
-        if (isSettingUp()) {
-            // This run once
-            foo = (Number)(bar + 1);
+        if (!prefs -> clear()) {
+            raiseError(ctx);
+            return;
         }
 
-        auto inValue = getValue<input_IN>(ctx);
-        emitValue<output_OUT>(ctx, inValue);
+        emitValue<output_Done>(ctx, 1);
     }
 }

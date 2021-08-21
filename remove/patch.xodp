@@ -1,4 +1,5 @@
 {
+  "description": "Remove the specified key from the open namespace.",
   "nodes": [
     {
       "description": "A preferences object.",
@@ -43,7 +44,7 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
-      "description": "Pulse on read.",
+      "description": "Pulse on removal.",
       "id": "By4Tjzzhet",
       "label": "Done",
       "position": {

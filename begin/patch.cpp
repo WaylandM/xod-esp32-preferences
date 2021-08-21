@@ -19,7 +19,11 @@ node {
             cStringName[i]=0;
         dump(xStringName, cStringName);
 
-        prefs -> begin(cStringName, ro);
+        if (!prefs -> begin(cStringName, ro)) {
+            raiseError(ctx);
+            return;
+        }
+        
         emitValue<output_Done>(ctx, 1);
 
     }

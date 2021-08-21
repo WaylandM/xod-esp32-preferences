@@ -1,4 +1,5 @@
 {
+  "description": "Clear all preferences under the open namespace (it doesn’t delete the namespace).",
   "nodes": [
     {
       "description": "A preferences object.",
