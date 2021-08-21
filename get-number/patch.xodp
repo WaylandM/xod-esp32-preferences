@@ -1,4 +1,5 @@
 {
+  "description": "Retrieve specified number from currently open namespace. If record does not exist, it will return NAN.",
   "nodes": [
     {
       "description": "A preferences object.",
@@ -54,6 +55,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Number retrieved from storage or NAN if key not found.",
       "id": "rkBE-GheY",
       "label": "Num",
       "position": {

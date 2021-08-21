@@ -1,4 +1,5 @@
 {
+  "description": "Store a byte identifiable by Key in currently open namespace.",
   "nodes": [
     {
       "id": "S18l1z3xt",
@@ -43,6 +44,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Byte to be stored.",
       "id": "rklbkM2xK",
       "label": "Byte",
       "position": {

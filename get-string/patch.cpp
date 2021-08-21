@@ -20,7 +20,7 @@ node {
             cStringKey[i]=0;
         dump(xStringKey, cStringKey);
 
-        String str = prefs -> getString(cStringKey, "");
+        String str = prefs -> getString(cStringKey, "NA");
         int strLen = str.length() + 1;
         cString = new char[strLen];
         

@@ -1,36 +1,31 @@
 {
+  "comments": [
+    {
+      "content": "An alternative method for erasing data from NVS is to use [esptool](https://github.com/espressif/esptool). From the command line run:\n\n**esptool.py erase_flash**\n\n",
+      "id": "BkD0NgyWK",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 7
+      }
+    }
+  ],
+  "description": "Running this patch will erase all data from non-volatile storage.",
   "links": [
     {
-      "id": "BycvJWTlt",
-      "input": {
-        "nodeId": "SJUvkZagK",
-        "pinKey": "HJAq-A_8-"
-      },
-      "output": {
-        "nodeId": "HyslkWTgt",
-        "pinKey": "S10La1pxt"
-      }
-    },
-    {
-      "id": "SJ7_1ZTlY",
-      "input": {
-        "nodeId": "B1ydy-axK",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "SJUvkZagK",
-        "pinKey": "r1yhZRd8W"
-      }
-    },
-    {
-      "id": "HyB9kWalt",
+      "id": "HJ5tMgkWK",
       "input": {
         "nodeId": "HyslkWTgt",
         "pinKey": "S1IrTkTxt"
       },
       "output": {
-        "nodeId": "BJzc1-pgK",
-        "pinKey": "Bkf4BDsmV"
+        "nodeId": "rkwFfekbK",
+        "pinKey": "ryVmUAOrvkb"
       }
     }
   ],
@@ -45,31 +40,13 @@
       "type": "@/erase-nvs"
     },
     {
-      "id": "SJUvkZagK",
-      "position": {
-        "units": "slots",
-        "x": 1,
-        "y": 3
-      },
-      "type": "xod/core/count"
-    },
-    {
-      "id": "B1ydy-axK",
-      "position": {
-        "units": "slots",
-        "x": 1,
-        "y": 4
-      },
-      "type": "xod/debug/watch"
-    },
-    {
-      "id": "BJzc1-pgK",
+      "id": "rkwFfekbK",
       "position": {
         "units": "slots",
         "x": 2,
         "y": 1
       },
-      "type": "xod/debug/tweak-pulse"
+      "type": "xod/core/boot"
     }
   ]
 }

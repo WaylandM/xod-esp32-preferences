@@ -1,4 +1,5 @@
 {
+  "description": "Retrieve specified string from currently  open namespace.",
   "nodes": [
     {
       "description": "A preferences object.",
@@ -54,6 +55,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "String retrieved from storage.",
       "id": "Hy7GZM2gt",
       "label": "String",
       "position": {

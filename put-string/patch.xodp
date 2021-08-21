@@ -1,4 +1,5 @@
 {
+  "description": "Store a string identifiable by Key in currently open namespace.",
   "nodes": [
     {
       "id": "SJEGyGnlF",

@@ -1,4 +1,5 @@
 {
+  "description": "Create a preferences object.",
   "nodes": [
     {
       "description": "Create a preferences object.",

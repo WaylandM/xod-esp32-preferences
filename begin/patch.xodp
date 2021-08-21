@@ -1,6 +1,8 @@
 {
+  "description": "Opens storage with specified namespace.  If RO (read only) is set to false, then storage will be opened in read/write mode. If namespace does not exist, then it will be created if RO is set to False. If namespace does not exist and RO is set to True, then the node will raise an error.",
   "nodes": [
     {
+      "description": "A preferences object.",
       "id": "SkcO-f3xt",
       "label": "Prefs",
       "position": {
@@ -42,6 +44,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulse when namespace opened.",
       "id": "HkSC-Gngt",
       "label": "Done",
       "position": {
@@ -52,7 +55,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "Read only.",
+      "description": "Open storage read only.",
       "id": "H1xmMG3gY",
       "label": "RO",
       "position": {
