@@ -1,5 +1,5 @@
 {
-  "description": "Remove the specified key from the open namespace.",
+  "description": "Remove the specified key-value pair from the open namespace.",
   "nodes": [
     {
       "description": "A preferences object.",

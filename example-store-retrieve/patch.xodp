@@ -43,6 +43,7 @@
       }
     }
   ],
+  "description": "Patch to demonstrate how to store and retrieve common datatypes (byte, number and string) from  NVS. Run in debug mode.",
   "links": [
     {
       "id": "BynVq7alY",

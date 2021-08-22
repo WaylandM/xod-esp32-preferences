@@ -1,4 +1,119 @@
 {
+  "comments": [
+    {
+      "content": "**1** The *constant-string* \"Temp. Celsius\" will be the name of our key. Use *tweak-number* node to specify number to be stored. Use *tweak-pulse* to initiate data flow.",
+      "id": "r1RB6bxZY",
+      "position": {
+        "units": "slots",
+        "x": 21,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 10
+      }
+    },
+    {
+      "content": "**2** Open a namespace called \"test\" in read/write mode (RO set to false). As RO is set to false, if the namespace does not exist, it will be created.",
+      "id": "SJvrxMx-t",
+      "position": {
+        "units": "slots",
+        "x": 21,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 9
+      }
+    },
+    {
+      "content": "**3** Store a number in the namespace which will be identifiable by the key \"Temp. Celsius\".",
+      "id": "HkchefxZt",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 6
+      }
+    },
+    {
+      "content": "**4** Retrieve the number identified by the key \"Temp. Celsius\". ",
+      "id": "ryDL-zeZY",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "**5** Watch node displays number retrieved from storage.",
+      "id": "rJqbfzxbY",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "**6** Remove key-value pair with key \"Temp. Celsius\".",
+      "id": "BJZ8MzlZK",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 7
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "**7** Try to retrieve number identified by key \"Temp. Celsius\".",
+      "id": "HJaiGfl-t",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 8
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "**8** As the key-value pair no longer exists, *get-number* will return \"NaN\". The *end* node closes the namespace.",
+      "id": "r11X7MlWt",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 9
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 7
+      }
+    }
+  ],
+  "description": "Patch to demonstrate how to remove a key-value pair from a preferences namespace. Run in debug mode.",
   "links": [
     {
       "id": "H1OyTr50gY",

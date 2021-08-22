@@ -1,4 +1,119 @@
 {
+  "comments": [
+    {
+      "content": "**1** The *constant-string* \"boot log\" will be the name of our namespace. The *boot* node means that this patch will run once on startup.",
+      "id": "H1Mn7fl-K",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 8
+      }
+    },
+    {
+      "content": "**2** The *constant-string* \"count\" will be the name of our key. Open namespace in read/write mode (RO set to false). As RO is set to false, if the namespace does not exist, it will be created.",
+      "id": "BkSEVMeWt",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 11
+      }
+    },
+    {
+      "content": "**3** Retrieve number identified by the key \"count\".",
+      "id": "H15lHGgWY",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "**4** If the key \"count\" does not exist, *get-number* will return \"NaN\".",
+      "id": "H1n4Sfe-K",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      }
+    },
+    {
+      "content": "**5** If *get-number* returns \"NaN\", this means that the board has booted up for the first time with this patch, and therefore the number should be set to zero.",
+      "id": "SJn5HGlbF",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 10
+      }
+    },
+    {
+      "content": "**6** Increment count.",
+      "id": "HkAJwfe-Y",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      }
+    },
+    {
+      "content": "**7** Store new count and format count for display on LCD.",
+      "id": "By0Uwfl-Y",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 7
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    },
+    {
+      "content": "**8** The *end* node closes the namespace. The boot count is displayed on the LCD.",
+      "id": "S1yswMgWt",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 8
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      }
+    }
+  ],
+  "description": "Patch to demonstrate how to record the number of times the ESP32 board has been booted. Result is displayed on an LCD.",
   "links": [
     {
       "id": "HyP07qkbF",
