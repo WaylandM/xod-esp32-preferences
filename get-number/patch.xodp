@@ -1,5 +1,5 @@
 {
-  "description": "Retrieve specified number from currently open namespace. If record does not exist, it will return NAN.",
+  "description": "Retrieve specified number from currently open namespace. If record does not exist, the Num pin will output NaN.",
   "nodes": [
     {
       "description": "A preferences object.",

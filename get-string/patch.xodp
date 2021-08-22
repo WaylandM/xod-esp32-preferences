@@ -1,5 +1,5 @@
 {
-  "description": "Retrieve specified string from currently  open namespace.",
+  "description": "Retrieve specified string from currently  open namespace. If record doesn't exist, the String pin will output \"NA\".",
   "nodes": [
     {
       "description": "A preferences object.",
@@ -55,7 +55,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "String retrieved from storage.",
+      "description": "String retrieved from storage (or \"NA\" if key doesn't exist).",
       "id": "Hy7GZM2gt",
       "label": "String",
       "position": {

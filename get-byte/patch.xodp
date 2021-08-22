@@ -1,5 +1,5 @@
 {
-  "description": "Retrieve specified byte from currently open namespace. If record does not exist it will return 0.",
+  "description": "Retrieve specified byte from currently open namespace. If record does not exist, the Byte pin will output 0.",
   "nodes": [
     {
       "description": "A preferences object.",
