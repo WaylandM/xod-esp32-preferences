@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0
       },
-      "type": "@/input-preferences-object"
+      "type": "@/input-preferences"
     }
   ]
 }

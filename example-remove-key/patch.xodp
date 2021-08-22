@@ -305,7 +305,7 @@
         "x": 16,
         "y": 2
       },
-      "type": "@/preferences-object"
+      "type": "@/preferences"
     },
     {
       "id": "rkYj8xkZt",
@@ -479,6 +479,9 @@
       "type": "xod/patch-nodes/from-bus"
     },
     {
+      "boundLiterals": {
+        "ByfGSDjQE": "42"
+      },
       "id": "rkJqig1WF",
       "position": {
         "units": "slots",
