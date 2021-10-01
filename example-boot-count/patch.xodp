@@ -111,6 +111,20 @@
         "units": "slots",
         "width": 5
       }
+    },
+    {
+      "content": "# A tutorial on using the esp32-preferences can be found here: https://www.hackster.io/wayland2/access-esp32-non-volatile-storage-using-xod-252ec9",
+      "id": "rkSSKn44K",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 9
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 19
+      }
     }
   ],
   "description": "Patch to demonstrate how to record the number of times the ESP32 board has been booted. Result is displayed on an LCD.",

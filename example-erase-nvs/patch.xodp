@@ -13,6 +13,20 @@
         "units": "slots",
         "width": 7
       }
+    },
+    {
+      "content": "# A tutorial on using the esp32-preferences can be found here: https://www.hackster.io/wayland2/access-esp32-non-volatile-storage-using-xod-252ec9",
+      "id": "Syok5nV4K",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 19
+      }
     }
   ],
   "description": "Running this patch will erase all data from non-volatile storage.",

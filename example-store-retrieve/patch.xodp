@@ -41,6 +41,20 @@
         "units": "slots",
         "width": 6
       }
+    },
+    {
+      "content": "# A tutorial on using the esp32-preferences can be found here: https://www.hackster.io/wayland2/access-esp32-non-volatile-storage-using-xod-252ec9",
+      "id": "rkcb92VVt",
+      "position": {
+        "units": "slots",
+        "x": -14,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 19
+      }
     }
   ],
   "description": "Patch to demonstrate how to store and retrieve common datatypes (byte, number and string) from  NVS. Run in debug mode.",

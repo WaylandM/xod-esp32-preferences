@@ -111,6 +111,20 @@
         "units": "slots",
         "width": 7
       }
+    },
+    {
+      "content": "# A tutorial on using the esp32-preferences can be found here: https://www.hackster.io/wayland2/access-esp32-non-volatile-storage-using-xod-252ec9",
+      "id": "ryslqhE4t",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 10
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 19
+      }
     }
   ],
   "description": "Patch to demonstrate how to remove a key-value pair from a preferences namespace. Run in debug mode.",
