@@ -27,7 +27,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 3,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -64,6 +64,17 @@
         "y": 2
       },
       "type": "xod/patch-nodes/output-string"
+    },
+    {
+      "description": "Maximum size of string (number of bytes). Must be a constant value. Any changes during program execution will be ignored.",
+      "id": "rkw2XKCw5",
+      "label": "Size",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
     }
   ]
 }

@@ -2,5 +2,5 @@
   "description": "Save data (byte, number and string data types) to the non-volatile storage (NVS) of the ESP32. Wrapper for the ESP32 Preferences library (https://github.com/espressif/arduino-esp32/tree/master/libraries/Preferences). Tutorial on using the library: https://www.hackster.io/wayland2/access-esp32-non-volatile-storage-using-xod-252ec9",
   "license": "Apache-2.0",
   "name": "esp32-preferences",
-  "version": "0.0.3"
+  "version": "0.0.5"
 }

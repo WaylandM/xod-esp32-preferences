@@ -1,4 +1,6 @@
 #include <nvs_flash.h>
+#pragma XOD evaluate_on_pin disable
+#pragma XOD evaluate_on_pin enable input_UPD
 
 node {
 
